@@ -4,119 +4,51 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>ROHITH KODAPAKA — Splunk Administrator & SIEM Engineer</title>
+<meta name="description" content="Splunk Administrator &amp; SIEM Engineer with 5+ years of experience in Splunk Enterprise, ES, clustering, SPL development and security log onboarding.">
+<meta name="theme-color" content="#0f766e">
+<meta name="author" content="Rohith Kodapaka">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ROHITH KODAPAKA — Splunk Administrator &amp; SIEM Engineer">
+<meta property="og:description" content="Splunk Administrator &amp; SIEM Engineer with 5+ years of experience in Splunk Enterprise, ES, clustering, SPL development and security log onboarding.">
+<!-- After hosting, replace https://YOUR-SITE-URL/ with your real address (keep the trailing slash) -->
+<meta property="og:url" content="https://YOUR-SITE-URL/">
+<meta property="og:image" content="https://YOUR-SITE-URL/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ROHITH KODAPAKA — Splunk Administrator &amp; SIEM Engineer">
+<meta name="twitter:description" content="Splunk Administrator &amp; SIEM Engineer with 5+ years of experience in Splunk Enterprise, ES, clustering, SPL development and security log onboarding.">
+<meta name="twitter:image" content="https://YOUR-SITE-URL/og-image.png">
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
-<style>
-:root{--bg:#f7f6f2;--card:#fff;--ink:#16181d;--mute:#5b6070;--line:#e2e0d8;--acc:#0f766e;--accbg:#d9f0ec;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1113;--card:#161a1d;--ink:#eef0f2;--mute:#9aa3ad;--line:#262c31;--acc:#4fd1c0;--accbg:#12332f}}
-:root[data-theme="dark"]{--bg:#0e1113;--card:#161a1d;--ink:#eef0f2;--mute:#9aa3ad;--line:#262c31;--acc:#4fd1c0;--accbg:#12332f}
-html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Inter,system-ui,sans-serif}
-h1,h2,h3{font-family:'Sora',system-ui,sans-serif;margin:0;line-height:1.15}
-.wrap{max-width:960px;margin:0 auto;padding:0 20px}
-nav{display:flex;justify-content:space-between;align-items:center;padding:20px 0;font-size:14px}
-nav b{font-family:'Sora',sans-serif;font-size:18px}
-nav a{color:var(--mute);text-decoration:none;margin-left:18px}
-nav a:hover{color:var(--acc)}
-.hero{padding:64px 0 48px}
-.tag{display:inline-block;background:var(--accbg);color:var(--acc);padding:4px 12px;border-radius:99px;font-size:13px;font-weight:500}
-.hero h1{font-size:clamp(38px,8vw,72px);margin:18px 0 16px;letter-spacing:-1.5px}
-.hero h1 span{color:var(--acc)}
-.hero p{max-width:620px;color:var(--mute);font-size:18px}
-.btns{margin-top:28px;display:flex;gap:12px;flex-wrap:wrap}
-.btn{padding:12px 22px;border-radius:10px;text-decoration:none;font-weight:500;border:1px solid var(--line);color:var(--ink)}
-.btn.p{background:var(--acc);border-color:var(--acc);color:var(--bg)}
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:14px;margin:8px 0 56px}
-.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
-.stat b{font:700 30px 'Sora',sans-serif;color:var(--acc);display:block}
-.stat span{font-size:13px;color:var(--mute)}
-section{padding:36px 0}
-h2{font-size:30px;margin-bottom:22px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr));gap:14px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
-.card h3{font-size:18px;margin-bottom:10px}
-.chips{display:flex;flex-wrap:wrap;gap:6px}
-.chips span{font-size:13px;padding:3px 10px;border-radius:99px;border:1px solid var(--line);color:var(--mute)}
-.job{border-left:2px solid var(--acc);padding:0 0 28px 20px;margin-left:6px;position:relative}
-.job:before{content:"";position:absolute;left:-7px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--acc)}
-.job h3{font-size:20px}
-.job small{color:var(--mute);display:block;margin:2px 0 8px}
-.job ul{margin:0;padding-left:18px;color:var(--mute)}
-.job li{margin:4px 0}
-.contact{text-align:center;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:48px 20px;margin:24px 0 48px}
-.contact h2{font-size:34px}
-footer{text-align:center;color:var(--mute);font-size:13px;padding-bottom:32px}
-@keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
-@keyframes pulse{0%,100%{box-shadow:0 0 0 0 var(--accbg)}50%{box-shadow:0 0 0 8px transparent}}
-@keyframes shine{to{background-position:200% center}}
-.hero .tag,.hero h1,.hero p,.hero .btns{animation:rise .8s cubic-bezier(.2,.7,.2,1) both}
-.hero h1{animation-delay:.12s}.hero p{animation-delay:.26s}.hero .btns{animation-delay:.4s}
-.hero .tag{animation:rise .8s both,pulse 2.4s 1s infinite}
-.hero h1 span{background:linear-gradient(90deg,var(--acc),var(--ink),var(--acc));background-size:200% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:shine 6s linear infinite}
-.js .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1);transition-delay:var(--d,0s)}
-.js .reveal.in{opacity:1;transform:none}
-.card,.stat,.btn{transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}
-.card:hover,.stat:hover{transform:translateY(-4px);border-color:var(--acc);box-shadow:0 10px 24px -14px var(--acc)}
-.btn:hover{transform:translateY(-2px)}
-.chips span{transition:background .2s,color .2s}
-.chips span:hover{background:var(--accbg);color:var(--acc)}
-.job:before{transition:transform .4s .2s}
-.js .job.reveal:not(.in):before{transform:scale(0)}
-#role{display:inline-block;min-height:1.15em}
-.caret{display:inline-block;width:.06em;height:.85em;margin-left:.08em;vertical-align:-.05em;background:var(--acc);animation:blink 1s steps(1) infinite}
-@keyframes blink{50%{opacity:0}}
-.bg{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none}
-.bg i{position:absolute;border-radius:50%;filter:blur(70px);opacity:.5;background:var(--accbg);animation:drift 22s ease-in-out infinite alternate}
-.bg i:nth-child(1){width:44vmax;height:44vmax;top:-12vmax;right:-10vmax}
-.bg i:nth-child(2){width:36vmax;height:36vmax;bottom:-10vmax;left:-12vmax;animation-duration:28s;animation-delay:-8s}
-.bg i:nth-child(3){width:24vmax;height:24vmax;top:40%;left:45%;opacity:.3;animation-duration:34s;animation-delay:-15s}
-@keyframes drift{from{transform:translate(0,0) scale(1)}to{transform:translate(6vmax,8vmax) scale(1.15)}}
-img,svg{max-width:100%}
-.job,.card,.contact h2,.btn{overflow-wrap:anywhere}
-.wrap{padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
-@media (min-width:1200px){.wrap{max-width:1080px}.hero{padding:96px 0 64px}.hero p{font-size:20px}}
-@media (max-width:768px){
-.hero{padding:40px 0 32px}
-.hero p{font-size:16px}
-section{padding:28px 0}
-h2{font-size:26px}
-.stats{grid-template-columns:repeat(2,1fr);margin-bottom:32px}
-.stat b{font-size:24px}
-.contact{padding:36px 16px}
-.contact h2{font-size:26px}
-}
-@media (max-width:520px){
-nav{flex-direction:column;gap:10px;padding:14px 0}
-nav a{margin:0 9px}
-.btns{flex-direction:column}
-.btn{text-align:center;padding:14px 20px}
-.job{padding-left:16px}
-.job h3{font-size:18px}
-.card{padding:16px}
-.hero h1{letter-spacing:-.5px}
-}
-@media (hover:none){.card:hover,.stat:hover,.btn:hover{transform:none;box-shadow:none}}
-@media (prefers-reduced-motion:reduce){*,*:before{animation:none!important;transition:none!important}.js .reveal{opacity:1;transform:none}}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="bg" aria-hidden="true"><i></i><i></i><i></i></div>
+<div class="cursor-glow" id="cursor-glow" aria-hidden="true"></div><div class="prog" aria-hidden="true"><b></b></div><div class="hud" id="hud" aria-hidden="true">SCAN 0%</div>
 <div class="wrap">
-<nav><b>RK</b><div><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#contact">Contact</a></div></nav>
+<nav><b>RK</b><div><a href="#skills">Skills</a><a href="#playbooks">Playbooks</a><a href="#experience">Experience</a><a href="#contact">Contact</a><a href="#resume-contact">My Resume</a></div></nav>
 
 <header class="hero">
 <span class="tag">Open to opportunities</span>
-<h1>ROHITH KODAPAKA<br><span id="role">Splunk &amp; SIEM Engineer</span><i class="caret"></i></h1>
+<h1><span class="spotlight-name" tabindex="0" aria-label="Rohith Kodapaka" aria-describedby="about-popover"><span class="name-puzzle" aria-hidden="true">ROHITH KODAPAKA</span><span class="about-popover" id="about-popover" role="tooltip"><span class="about-kicker">ABOUT ME / 01</span><span class="about-copy">Cybersecurity and Splunk enthusiast, focused on SIEM, cloud, automation, and security monitoring. I enjoy solving technical challenges, learning new technologies, and turning complex data into meaningful security insights.</span></span></span><br><span class="role-slot"><span id="role">Splunk &amp; SIEM Engineer</span><i class="caret"></i></span></h1>
 <p>5+ years running distributed Splunk Enterprise and Enterprise Security platforms: clustering, data onboarding, SPL development and security monitoring.</p>
-<div class="btns"><a class="btn p" href="mailto:rohith.k0796@gmail.com">Get in touch</a><a class="btn" href="#experience">View experience</a></div>
+<div class="btns"><a class="btn p" href="#contact" data-u="rohith.k0796" data-d="gmail.com">Get in touch</a></div>
 </header>
 
 <div class="stats">
-<div class="stat"><b>5+</b><span>Years in IT</span></div>
 <div class="stat"><b>SHC + IDXC</b><span>Cluster administration</span></div>
 <div class="stat"><b>Splunk ES</b><span>Correlation &amp; notables</span></div>
 <div class="stat"><b>AWS · GCP</b><span>Cloud environments</span></div>
 </div>
+
+<section class="experience-snapshot" aria-labelledby="experience-snapshot-title">
+<h2 id="experience-snapshot-title">Experience at a glance</h2>
+<div class="experience-expander" tabindex="0" role="group" aria-label="Experience highlights. Focus or hover to expand.">
+<div class="experience-fact"><b>5+</b><span>Years in IT</span></div>
+<div class="experience-fact"><b>4+</b><span>Years in Splunk and SIEM</span></div>
+<div class="experience-fact"><b>2</b><span>Enterprise Splunk projects</span></div>
+</div>
+</section>
 
 <section id="skills">
 <h2>What I do</h2>
@@ -130,61 +62,68 @@ nav a{margin:0 9px}
 </div>
 </section>
 
+<section id="playbooks" class="playbooks-section">
+<h2>Platform playbooks</h2>
+<p class="section-intro">A few recurring workflows from my Splunk and SIEM work.</p>
+<div class="playbook-grid">
+<article class="card playbook interactive-card"><span class="playbook-index">01 / PLATFORM</span><h3>Keep the cluster steady</h3><p>Administer indexer and search head clusters, monitor platform health, and manage app distribution through Deployment Server.</p><div class="chips"><span>SHC</span><span>IDXC</span><span>DMC</span></div></article>
+<article class="card playbook interactive-card"><span class="playbook-index">02 / DATA</span><h3>Make logs usable</h3><p>Onboard security and infrastructure data, troubleshoot ingestion, and align fields with CIM for consistent searches.</p><div class="chips"><span>Syslog</span><span>HEC</span><span>CIM</span></div></article>
+<article class="card playbook interactive-card"><span class="playbook-index">03 / DETECTION</span><h3>Turn signals into action</h3><p>Build and tune SPL searches, dashboards, alerts, and correlation searches for security monitoring.</p><div class="chips"><span>SPL</span><span>Splunk ES</span><span>Notables</span></div></article>
+</div>
+</section>
+
+<section id="spl-explorer" class="explorer-section">
+<div class="explorer-heading"><div><span class="eyebrow">INTERACTIVE FIELD NOTES</span><h2>Explore the SPL toolkit</h2></div><span class="live-mark"><i></i> EXAMPLE QUERIES</span></div>
+<div class="terminal-card">
+<div class="terminal-top"><div class="terminal-dots"><i></i><i></i><i></i></div><span>splunk / query-notes</span><span class="terminal-mode">REFERENCE</span></div>
+<div class="terminal-body">
+<div class="command-list" role="group" aria-label="Choose an SPL example">
+<button type="button" class="command active" data-query="volume" aria-pressed="true">01&nbsp; Event volume</button>
+<button type="button" class="command" data-query="status" aria-pressed="false">02&nbsp; HTTP status</button>
+<button type="button" class="command" data-query="internal" aria-pressed="false">03&nbsp; Internal sources</button>
+</div>
+<div class="query-output" aria-live="polite">
+<div class="query-prompt"><span>rk@portfolio</span> <b>~</b> <span>$</span> <span id="query-label">event-volume.spl</span></div>
+<pre><code id="query-code">index=_internal
+| stats count by sourcetype
+| sort -count
+| head 10</code></pre>
+<p id="query-description">Review event volume by source type. Example query only; results depend on your indexes and time range.</p>
+</div>
+</div>
+</div>
+</section>
+
 <section id="experience">
 <h2>Experience</h2>
 <div class="job"><h3>Splunk Developer / SIEM Engineer · Wipro</h3><small>Oct 2024 – Present · Hyderabad</small>
-<ul><li>Administer Splunk Enterprise and ES across distributed environments, including clusters, Deployment Server and forwarders.</li><li>Onboard security, infrastructure and application logs via Syslog, HEC, TCP/UDP, file monitoring and DB Connect.</li><li>Build SPL searches, dashboards, alerts and correlation searches for SIEM use cases with CIM-aligned data.</li><li>Tune search and platform performance using the Monitoring Console; maintain runbooks and documentation.</li></ul></div>
+<ul><li>Administer Splunk Enterprise and ES across distributed environments, including clusters, Deployment Server and forwarders.</li><li>Onboard security, infrastructure and application logs via Syslog, HEC, TCP/UDP, file monitoring and DB Connect.</li><li>Build SPL searches, dashboards, alerts and correlation searches for SIEM use cases with CIM-aligned data.</li><li>Tune search and platform performance using the Monitoring Console; maintain runbooks and documentation.</li><li>Distribute apps and configuration packages through Deployment Server; troubleshoot inputs.conf, outputs.conf, props.conf, transforms.conf and serverclass.conf.</li><li>Collaborate with SOC, security, infrastructure and development teams to onboard data and deliver SIEM solutions.</li></ul></div>
 <div class="job"><h3>Splunk Administrator · LTIMindtree</h3><small>Jul 2022 – Sep 2024 · Hyderabad</small>
-<ul><li>Managed indexers, search heads, clusters and forwarders; handled installs, upgrades, migrations and backup/restore.</li><li>Administered indexes, retention, roles, licenses and apps; resolved forwarding, parsing and ingestion incidents.</li><li>Developed dashboards, knowledge objects, lookups and KV Store use cases.</li></ul></div>
+<ul><li>Managed indexers, search heads, clusters and forwarders; handled installs, upgrades, migrations and backup/restore.</li><li>Administered indexes, retention, roles, licenses and apps; resolved forwarding, parsing and ingestion incidents.</li><li>Developed dashboards, knowledge objects, lookups and KV Store use cases.</li><li>Performed backup and restore activities and supported platform migrations; tuned searches to improve stability and efficiency.</li><li>Supported Splunk ES and SIEM monitoring, CIM mapping and data normalization, working with infrastructure, application, security and development teams on incidents.</li></ul></div>
 <div class="job"><h3>System Administrator · Hallmark Global Technologies</h3><small>Sep 2021 – Jun 2022 · Hyderabad</small>
 <ul><li>Linux and Windows server administration, monitoring, patching and incident support, including forwarder connectivity for Splunk data collection.</li></ul></div>
 </section>
 
 <section>
 <h2>Education</h2>
-<div class="card"><h3>B.Sc. Multimedia</h3></div>
+<button class="card education-card interactive-card" type="button" aria-label="B.Sc. Multimedia — click for a camera flash effect"><h3>B.Sc. Multimedia</h3></button>
 </section>
 
 <div class="contact" id="contact">
 <h2>Let's work together</h2>
 <p style="color:var(--mute)">Hyderabad, India</p>
-<a class="btn p" href="mailto:rohith.k0796@gmail.com">rohith.k0796@gmail.com</a>
+<div class="contact-actions">
+<a class="btn p mail-btn" href="#contact" data-u="rohith.k0796" data-d="gmail.com" data-show aria-label="Email Rohith Kodapaka"><span class="mail-icon" aria-hidden="true">✉</span><span class="mail-address">rohith.k0796 [at] gmail [dot] com</span><span class="mail-cta" aria-hidden="true">Let’s talk <span>↗</span></span></a>
+<a class="btn p resume-contact" id="resume-contact" href="resume.pdf" data-open-resume><span class="resume-label"><svg class="resume-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2.5h6l4 4v11H5z"/><path d="M11 2.5v4h4M7.5 10h5M7.5 13h5"/></svg><span>My Resume</span></span><span class="resume-cta" aria-hidden="true">Open resume <span>↗</span></span></a>
+</div>
 </div>
 <footer>© ROHITH KODAPAKA</footer>
 </div>
-<script>
-document.documentElement.classList.add('js');
-(function(){
-  var els=document.querySelectorAll('h2,.stat,.card,.job,.contact');
-  els.forEach(function(e,i){e.classList.add('reveal');e.style.setProperty('--d',((i%3)*0.09)+'s')});
-  function show(e){e.classList.add('in')}
-  if(!('IntersectionObserver' in window)){els.forEach(show);return}
-  var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){show(x.target);io.unobserve(x.target)}})},{threshold:.12});
-  els.forEach(function(e){io.observe(e)});
-  var n=document.querySelector('.stat b');
-  if(n&&!matchMedia('(prefers-reduced-motion:reduce)').matches){
-    var t0=null;n.textContent='0+';
-    function step(t){t0=t0||t;var p=Math.min((t-t0)/1400,1);n.textContent=Math.round(5*p)+'+';if(p<1)requestAnimationFrame(step)}
-    requestAnimationFrame(step);
-  }
-})();
-(function(){
-  var el=document.getElementById('role');
-  if(!el||matchMedia('(prefers-reduced-motion:reduce)').matches)return;
-  var roles=['Splunk & SIEM Engineer','Splunk Administrator','SPL Developer','Security Log Onboarding'];
-  var r=0,c=0,del=false;
-  el.textContent='';
-  function tick(){
-    var w=roles[r];
-    c+=del?-1:1;
-    el.textContent=w.slice(0,c);
-    var d=del?35:75;
-    if(!del&&c===w.length){del=true;d=1800}
-    else if(del&&c===0){del=false;r=(r+1)%roles.length;d=350}
-    setTimeout(tick,d);
-  }
-  setTimeout(tick,900);
-})();
-</script>
+<dialog class="resume-dialog" id="resume-dialog" aria-labelledby="resume-title">
+<div class="resume-dialog-head"><h2 id="resume-title">My Resume</h2><div class="resume-dialog-actions"><a class="btn p resume-download" href="resume.pdf" download="Rohith_Kodapaka_Resume.pdf">Download Resume ↓</a><button class="resume-close" id="resume-close" type="button" aria-label="Close resume">×</button></div></div>
+<iframe class="resume-frame" src="resume.pdf" title="Rohith Kodapaka resume"></iframe>
+<div class="resume-envelope" aria-hidden="true"><div class="envelope-art"><div class="envelope-paper"><b>ROHITH KODAPAKA</b><span>RESUME</span></div><div class="envelope-flap"></div><div class="envelope-front"></div><span class="envelope-seal">RK</span></div></div>
+</dialog>
+<script src="script.js" defer></script>
 </body>
 </html>
